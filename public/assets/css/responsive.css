@@ -1,0 +1,89 @@
+@media (min-width: 768px) {
+    #app {
+        overflow: hidden !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #app {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+}
+
+@media (max-width: 480px) { 
+    .layer {
+        min-height: 400px;
+        /* margin-top: -200px; */
+        margin-top: 10px;
+    }
+    .m-portlet .m-portlet__head .m-portlet__head-caption .m-portlet__head-title .m-portlet__head-text {
+        font-size: 1.2rem !important;
+    }
+
+    h5:nth-child(1) {
+        margin-top: -15px;
+    }
+
+    .camera-layer, .camera-layer2 {
+        margin-top: 30px;
+    }
+
+    .modal h5 {
+        margin-top: 2px;
+    }
+
+    #homepage img.navigation {
+        margin-top: 30vh;
+        max-width: 15vh;
+    }
+
+    .col {
+        width: 50%;
+    }
+
+    #homepage .left-holder {
+        margin-left: 0;
+    }
+
+    #homepage .right-holder {
+        margin-right: 0;
+    }
+
+    #homepage h1 {
+        font-size: 2.1vh;
+    }
+}
+
+@media (max-width: 1366px) {
+    .m-wizard.m-wizard--1 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info .m-wizard__step-number > span {
+        width: 3rem;
+        height: 3rem;
+    }
+    .m-wizard.m-wizard--1 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-line > span {
+        width: 1.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .layer.offset-md-3 {
+        margin-left: 15%;
+    }
+    .layer.col-md-6 {
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+    .camera-layer2,
+    .camera-layer {
+      width: 90%;
+    }
+    button.action-btn {
+      padding: 10px 10px;
+      min-width: 80px;
+      max-width: 80px;
+      text-align: center;
+    }
+    .camera-layer2 .btn { 
+      font-size: 1rem !important;
+    }
+} 
