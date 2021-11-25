@@ -1,0 +1,45 @@
+$primary: #610303;
+$secondary: #801321;
+
+.primary-bg {
+    background-color: $primary !important;
+}
+
+.primary-border {
+    border-color: $primary !important;
+}
+
+.primary-color {
+    color: $primary !important;
+}
+
+.secondary-border {
+    border-color: $secondary !important;
+}
+.secondary-bg {
+    background-color: $secondary !important;
+}
+
+.alert.m-alert--outline.alert-danger {
+    border-color: $primary !important;
+    background-color: $primary !important;
+}
+
+.primary-hover:active,
+.primary-hover:focus,
+.primary-hover:hover {
+    color: $secondary !important;
+}
+
+.modal-header {
+    background: $primary !important;
+    border-color: $primary;
+}   
+
+.video-layer {
+    border-color: $primary;
+}
+
+#homepage h1 {
+    color: $secondary;
+}

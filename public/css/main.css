@@ -1,0 +1,44 @@
+.primary-bg {
+  background-color: #610303 !important;
+}
+
+.primary-border {
+  border-color: #610303 !important;
+}
+
+.primary-color {
+  color: #610303 !important;
+}
+
+.secondary-border {
+  border-color: #801321 !important;
+}
+
+.secondary-bg {
+  background-color: #801321 !important;
+}
+
+.alert.m-alert--outline.alert-danger {
+  border-color: #610303 !important;
+  background-color: #610303 !important;
+}
+
+.primary-hover:active,
+.primary-hover:focus,
+.primary-hover:hover {
+  color: #801321 !important;
+}
+
+.modal-header {
+  background: #610303 !important;
+  border-color: #610303;
+}
+
+.video-layer {
+  border-color: #610303;
+}
+
+#homepage h1 {
+  color: #801321;
+}
+
