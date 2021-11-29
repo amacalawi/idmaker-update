@@ -20,7 +20,11 @@
                         </div>
                     </div>
                 </div>
-                <qrcode-stream :camera="camera" @decode="onDecode" @init="onInit" />
+                <div class="row">
+                    <div class="col-md-12">
+                        <qrcode-stream :camera="camera" @decode="onDecode" @init="onInit" />
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div v-bind:class="{hidden: isFailed}" class="alert alert-danger alert-dismissible fade show m-alert m-alert--air m-alert--outline m-alert--outline-2x primary-bg primary-border" role="alert">
